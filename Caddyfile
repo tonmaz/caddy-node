@@ -2,7 +2,7 @@
 tonmaz.com {
   # node-app:4000 is the docker container running the Node.js application
   # in our case it's exposed on port 4000
-  reverse_proxy node-app:4000  {
+  reverse_proxy tondeyi.s3-website.eu-central-1.amazonaws.com  {
     header_down Strict-Transport-Security max-age=31536000;
    }
 }
