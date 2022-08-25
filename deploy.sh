@@ -4,4 +4,4 @@ echo "Pulling"
 sudo git pull
 
 echo "Building application"
-sudo docker-compose up -d --build
+sudo docker compose up -d --build

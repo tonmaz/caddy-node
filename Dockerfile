@@ -20,5 +20,7 @@ WORKDIR /src
 # Build the appliction
 RUN npm run-script build
 
+EXPOSE 4000
+
 # Run the built application
 CMD ["node", "build/index.js"]
